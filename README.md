@@ -3,6 +3,26 @@
 ## Description
 This is a simple CRUD application using Django. It allows you to create, read, update and delete records from a database.
 
+## Recomentations
+Use a virtual environment to install the dependencies.
+You can use the following command to create a virtual environment:
+```bash
+python -m venv venv
+```
+Then you can activate the virtual environment using the following command:
+Linux/Mac:
+```bash
+source venv/bin/activate
+```
+Windows:
+```bash
+venv\Scripts\activate
+```
+After activating the virtual environment you can install the dependencies using the following command:
+```bash
+pip install -r requirements.txt
+```
+
 ## Installation
 1. Clone the repository
 2. Install the required packages using the command `pip install -r requirements.txt`
@@ -56,5 +76,5 @@ The application also has a simple user authentication system that allows you to 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Author
-[Alejandro Andrade](https://github.com/MrBowis)
-[Allan Panchi](https://github.com/AllanPanchi)
+- [Alejandro Andrade](https://github.com/MrBowis)
+- [Allan Panchi](https://github.com/AllanPanchi)
