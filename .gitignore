@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribución
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Cualquier archivo generado que contenga "built", envía .spec
+*.manifest
+*.spec
+
+# Directorios de entorno
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos creados por el IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Archivos creados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de base de datos
+*.sqlite3
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+/db.sqlite3-journal
+
+# Static file caches
+staticfiles/
+media/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pyre-checks/
+
+# Pytest
+.pytest_cache/
+
+# Profiling data
+.prof
+.profraw
+
+# PyCharm
+*.iml
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Other
+test_*.py
