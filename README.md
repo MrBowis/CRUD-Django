@@ -10,6 +10,7 @@ You can use the following command to create a virtual environment:
 python -m venv venv
 ```
 Then you can activate the virtual environment using the following command:
+
 Linux/Mac:
 ```bash
 source venv/bin/activate
@@ -25,8 +26,14 @@ pip install -r requirements.txt
 
 ## Installation
 1. Clone the repository
-2. Install the required packages using the command `pip install -r requirements.txt`
-3. Run the server using the command `python manage.py runserver`
+2. Install the required packages using the command
+```bash
+pip install -r requirements.txt
+```
+3. Run the server using the command
+```bash
+python manage.py runserver`
+```
 
 ## Usage
 1. Go to the URL `http://localhost:8000/`
